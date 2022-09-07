@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Handson1</title>
+    <style>
+        .head{
+            color: red;
+        }
+        .italic{
+           font-style: italic;
+            color: red;
+        }
+        .space{
+            letter-spacing: 0.5em;
+        }
+        .para{
+            color: red;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1 class="head">
+        This Is First CSS Assignment
+    </h1>
+    <hr>
+    <h2 class="italic">
+        what is css?
+    </h2><br><br>
+    <ol style="color: brown;">
+        <li>css stand for cascading style sheet</li><br>
+        <li>css describes how HTML element are displayed on the screen , paper, or in other media</li><br>
+       <li> <span style="text-decoration: line-through;"> css is not neccesary </span>. <span style="background-color: rgb(172, 177, 27); font-weight:bold; "> css saves a lot of work </span>. it cannot control the layout of all pages.
+       css saves a lot of work . it cannot control the layout of all pages.</li><br>
+       <li style="font-style: oblique; color:rgb(186, 41, 41)">External stylesheets is stored in CSS Files</li>
+    </ol>
+    <hr>
+    <h2 class="italic">
+        CSS can be added HTML documents in 3 ways:
+    </h2><br>
+    <ul class="space">
+        <li>inline by using style attribute inside HTML elements</li>
+        <li>internal - by using style element in the head section</li>
+        <li>the most common way to add CSS, is  to keep the files in extenal style CSS files <span style="background-color: rgb(172, 177, 27); font-weight:bold;"> however in css we will use inline and internal styles</span> , because this is easier to demonstrate, and easier to try it yourself </li>
+    </ul>
+    <p class="para">when comparing CSS class vs ID, the difference is that CSS class applies a style to multiple element , on the other hand ID applies a style to unique element. ID is special in that you can use a special URL to link directly an element and its is used by javascript</p>
+    <p class="para">in CSS , selectors are used to target a specific element on range of elements of webpage. once an element is tageted , a style or a set of styles can be applied to the element</p>
+    <p class="para">there is wide range of selectors  availaible. two most commonly used are class and ID . both are used to tsrget elements to which a style should be applied</p>
+    <span><p style="font-style: italic;background-color: rgb(172, 177, 27);color: red;width: 10%";>prebytes home</p></span>
+</body>
+</html>
